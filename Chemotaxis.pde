@@ -23,8 +23,9 @@ class Star
   Star() {
     myX = 500;
     myY = 500;
-    myColor = color((int)(Math.random()*200)+50, (int)(Math.random()*200)+50, (int)(Math.random()*200)+50);
+    myColor = color((random(40, 210)), (random(27, 160)), (random(70, 230)));
   }
+
   void show()
   {
     noStroke();
