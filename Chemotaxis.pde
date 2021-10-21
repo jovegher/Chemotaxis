@@ -1,5 +1,4 @@
 Star[] andromeda;
-Star[] virgo;
 
 void setup() {
   frameRate(60);
